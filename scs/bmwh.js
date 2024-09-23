@@ -21,7 +21,7 @@ adams(
         const {message , lien} = data;
 
 
-        var mode = "public";
+        var mode = "private";
         if ((s.MODE).toLocaleLowerCase() != "yes") {
             mode = "private";
         }
@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *BMW-MD-WABOT*`
+ 
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
